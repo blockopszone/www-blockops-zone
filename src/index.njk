@@ -1,0 +1,29 @@
+---
+layout: base-layout.njk
+pagination:
+  data: collections.post
+  size: 10
+  reverse: true
+  alias: posts
+  generatePageOnEmptyData: true
+---
+
+<h1> Welcome.</h1>
+<h3>You make my software turn into hardware!</h3>
+<div class="posts-list">
+{% for post in posts %}
+  <article>
+    <div class="post-image">{% first_image post %}</div>
+    <div class="post-content">
+      <time datetime="{{ post.date | dateIso }}">{{ post.date | dateReadable }}</time>
+        <h2>
+          <a href="{{ post.url | url }}">{{ post.data.title }}</a>
+        </h2>
+
+        {% excerpt post %}
+
+        <a href="{{ post.url | url }}">Read more</a>
+      </div>
+  </article>
+{% endfor %}
+</div>

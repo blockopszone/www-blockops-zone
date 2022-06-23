@@ -1,6 +1,6 @@
 {
   "name": "www-blockops-zone",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/blockopszone/www-blockops-zone#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1"
+    "@11ty/eleventy": "^1.0.1",
+    "moment": "^2.29.3"
   }
 }
