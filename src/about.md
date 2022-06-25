@@ -3,6 +3,8 @@ layout: base-layout.njk
 title: About us
 ---
 <h1> Get in Touch </h1>
+<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut ex eget lacus eleifend condimentum non id massa. Fusce eleifend et purus eu mattis. Nulla facilisi. Quisque ultricies rutrum nulla vitae sodales. Vivamus ipsum felis, lacinia id velit ut, consectetur mattis risus. Donec sit amet augue non arcu vehicula congue. Aliquam erat volutpat.
+</h3>
 
 <div class="social-container">
 <div class="social">
