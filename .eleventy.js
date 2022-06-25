@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/assets");
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/img");
+    eleventyConfig.addPassthroughCopy("src/CNAME")
     // Filters
     eleventyConfig.addFilter('dateIso', date => {
         return moment(date).toISOString();
