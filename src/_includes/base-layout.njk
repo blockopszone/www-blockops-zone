@@ -6,17 +6,21 @@
   <title>Eleventy Blog</title>
 
   <link rel="stylesheet" href="{{ '/css/site.css' | url }}">
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto&display=fallback" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@300;400;500&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700|Roboto&display=fallback" rel="stylesheet">
 </head>
 <body>
 <header>
 <div class="logo">JMH</div>
+  
   <a href="{{ '/' | url }}" class="home" >Blog</a>
+  <a href="{{ '/cardano/stakepool' | url }}" >Stake Pool</a>
+  <a href="{{ '/projects/' | url }}" >Projects</a>
+
   <a href="{{ '/About' | url }}" class="link--about">About</a>
-   <a href="{{ '/About' | url }}" class="link--about">Contact</a>
+  <a href="{{ '/About' | url }}" class="link--about">Contact</a>
 </header>
 <main>
   {{ content | safe }}
