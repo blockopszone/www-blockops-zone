@@ -14,7 +14,7 @@ body {
 }
 
 p {
-    margin: 12px 0 24px;
+    margin: 12px 0 12px;
     line-height: 1.5;
 }
 
@@ -76,8 +76,27 @@ footer {
 h1 {
     font-family: 'Anek Latin', serif;
     font-weight: normal;
-    font-size: 80px;
+    font-size: 76px;
     margin: 24px 0;
+    line-height: 1;
+    color: #444;
+}
+
+h1>a:link,
+h1>a:visited {
+    text-decoration: none;
+}
+
+h1>a:hover {
+    color: #20399daa;
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Anek Latin', serif;
+    font-weight: normal;
+    margin: 12px 0;
+    font-size: 28px;
     line-height: 1.2;
     color: #444;
 }
@@ -90,22 +109,7 @@ h3 {
     margin: 12px 0;
 }
 
-h2 {
-    font-family: 'Anek Latin', serif;
-    font-weight: normal;
-    margin: 12px 0;
-    font-size: 28px;
-    line-height: 1.2;
-    color: #444;
-}
-
-h1>a:link,
-h1>a:visited {
-    text-decoration: none;
-}
-
-h1>a:hover {
-    color: #20399daa;
+h3>a:link {
     text-decoration: underline;
 }
 
