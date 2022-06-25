@@ -146,6 +146,10 @@ time {
     flex-direction: column;
 }
 
+.main-article h1 {
+    font-size: 72px;
+}
+
 .main-article * {
     padding: 0 10%;
     text-align: left;
@@ -157,6 +161,11 @@ time {
     max-width: 100%;
     height: auto;
     min-width: 90%;
+}
+
+.main-article video {
+    margin: auto;
+    margin-top: 48px;
 }
 
 .posts-list {
