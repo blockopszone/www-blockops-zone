@@ -18,6 +18,10 @@ p {
     line-height: 1.5;
 }
 
+hr {
+    border: 1px solid #ccc;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -586,6 +590,17 @@ time {
 
 .staking-photo {
     object-fit: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.pool-info {
+    display: flex;
+}
+
+.pool-info div:first-child {
+    margin-right: 20px;
 }
 
 .stakepool h3 {
