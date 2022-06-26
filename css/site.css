@@ -282,11 +282,15 @@ time {
     flex-direction: column;
 }
 
+.main-article a {
+    text-decoration: underline;
+}
+
 .main-article h1 {
     font-size: 72px;
 }
 
-.main-article * {
+.main-article>* {
     padding: 0 10%;
     text-align: left;
 }
@@ -568,6 +572,114 @@ time {
     z-index: 4;
 }
 
+
+/* Staking photo */
+
+.staking-photo {
+    object-fit: cover;
+}
+
+.stakepool h3 {
+    margin: 36px 0 24px;
+}
+
+.stakepool ul.features {
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    margin: 40px 0;
+    padding: 0;
+}
+
+.stakepool .features li {
+    margin-right: 1%;
+    border: 1px solid tomato;
+    padding: 1em;
+    flex: 1;
+    color: white;
+    background-color: turquoise;
+}
+
+.staking-steps-wallet {
+    counter-reset: step;
+    border-bottom: 1px solid #ccc;
+    background: #fff;
+    padding: 20px 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+
+.staking-steps-wallet h2 {
+    position: relative;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.staking-steps-wallet h2::before {
+    /* content */
+    content: "STEP " counter( step, decimal);
+    counter-increment: step;
+    /* style */
+    background: #353535;
+    border: 5px solid #fff;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: -5px 0 5px rgba(0, 0, 0, 0.2);
+    /* sizing */
+    box-sizing: content-box;
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    line-height: 50px;
+    margin-right: 10px;
+    /* mobile first postition */
+    float: left;
+    font-weight: 600;
+}
+
+.staking-steps {
+    counter-reset: step;
+    background: #fff;
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.staking-steps li {
+    counter-increment: step-counter;
+    margin-bottom: 22px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+.staking-steps li::before {
+    content: counter(step-counter);
+    margin-right: 15px;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.panels div {
+    margin-top: 2em;
+}
+
+.panels div {
+    background-color: #f3f3f3;
+    padding: 1.5em;
+    color: #444;
+    border-radius: 10px;
+}
+
 @media (max-width: 738px) {
     h1 {
         font-size: 48px;
@@ -644,5 +756,13 @@ time {
     .circle2 {
         right: 60px;
         bottom: -40px;
+    }
+    .stakepool ul {
+        flex-direction: column;
+    }
+    .stakepool li {
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 1em;
     }
 }
