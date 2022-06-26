@@ -22,6 +22,10 @@ hr {
     border: 1px solid #ccc;
 }
 
+.flex {
+    display: flex;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -327,9 +331,8 @@ time {
 
 .posts-list .post-image {
     height: 200px;
-    width: 25%;
+    width: 18%;
     margin-right: 5%;
-    background-color: #666666;
 }
 
 .posts-list img {
@@ -339,7 +342,7 @@ time {
 }
 
 .posts-list .post-content {
-    width: 70%;
+    width: 77%;
 }
 
 .posts-list article {
@@ -703,7 +706,22 @@ time {
     border-radius: 10px;
 }
 
+
+/* blog */
+
+.plutus-image img {
+    padding: 0;
+    margin: 48px auto;
+    max-width: 100%;
+    height: auto;
+    min-width: 50%;
+    text-align: center;
+}
+
 @media (max-width: 738px) {
+    .flex {
+        flex-direction: column;
+    }
     h1 {
         font-size: 48px;
     }
