@@ -115,6 +115,7 @@ header a svg {
     z-index: 5;
     opacity: 0;
     cursor: pointer;
+    z-index: 7;
 }
 
 .nav-container .hamburger-lines {
@@ -124,7 +125,7 @@ header a svg {
     position: absolute;
     top: 17px;
     right: 0;
-    z-index: 2;
+    z-index: 6;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -165,6 +166,7 @@ header a svg {
     left: 0;
     top: 0;
     background: white;
+    z-index: 5;
 }
 
 .navbar-mobile .menu-items li {
