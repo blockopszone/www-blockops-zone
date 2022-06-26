@@ -282,6 +282,10 @@ time {
     flex-direction: column;
 }
 
+.main-article time {
+    display: none;
+}
+
 .main-article a {
     text-decoration: underline;
 }
@@ -295,12 +299,17 @@ time {
     text-align: left;
 }
 
+.main-article .post-image {
+    display: flex;
+}
+
 .main-article img {
     padding: 0;
     margin: 48px auto;
     max-width: 100%;
     height: auto;
     min-width: 90%;
+    text-align: center;
 }
 
 .main-article video {
@@ -764,5 +773,10 @@ time {
         margin-right: 0;
         width: 100%;
         margin-bottom: 1em;
+    }
+    .staking-steps-wallet h2 {
+        position: relative;
+        font-size: 18px;
+        line-height: 1.2;
     }
 }
