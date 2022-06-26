@@ -1,4 +1,3 @@
-
 const moment = require('moment');
 
 moment.locale('en');
@@ -12,7 +11,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/img");
     eleventyConfig.addPassthroughCopy("src/CNAME")
-    // Filters
+        // Filters
     eleventyConfig.addFilter('dateIso', date => {
         return moment(date).toISOString();
     });

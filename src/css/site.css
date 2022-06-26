@@ -258,6 +258,180 @@ time {
     fill: tomato;
 }
 
+
+/* contribute section */
+
+.contribute-wrapper {
+    overflow: hidden;
+    margin: 32px calc(50% - 50vw);
+    max-width: 100vw;
+    width: 100vw;
+    padding: 100px 0;
+}
+
+.contribute-wrapper h3 {
+    position: relative;
+    z-index: 3;
+    font-size: 56px;
+}
+
+.contribute {
+    display: flex;
+    width: 100%;
+}
+
+.contribute .post-image {
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+.contribute img {
+    position: absolute;
+}
+
+.contribute .post-content {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    padding: 10px 68px;
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+.contribute .post-content p {
+    margin: 24px 0;
+}
+
+.contribute .post-content a {
+    text-decoration: underline;
+    color: tomato;
+}
+
+.contribute .post-content a:hover {
+    color: turquoise;
+}
+
+.contribute.first {
+    min-height: 600px;
+}
+
+.contribute.first img {
+    right: 0;
+    top: -100px;
+}
+
+.contribute.first h3 {
+    margin-top: 90px;
+}
+
+.contribute.second {
+    min-height: 340px;
+}
+
+.contribute.second .post-image {
+    width: 30%;
+}
+
+.contribute.second .post-content {
+    width: 40%;
+    padding-left: 0;
+}
+
+.contribute.second img {
+    left: -100px;
+    top: -10px;
+}
+
+.contribute.third {
+    min-height: 400px;
+}
+
+.contribute.third img {
+    right: 0;
+    top: 0;
+}
+
+.contribute.third .post-content {
+    top: 150px;
+    left: 18%;
+}
+
+.donate-buttons {
+    display: flex;
+    margin-top: 48px;
+}
+
+.donate-buttons button {
+    display: flex;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 18px;
+    background-color: black;
+    font-size: 24px;
+}
+
+.donate-buttons .button-paypal {
+    border: 3px solid tomato;
+}
+
+.donate-buttons .button-wallet {
+    border: 3px solid turquoise;
+    margin-left: 20px;
+}
+
+.circular-sb {
+    width: 250px;
+    border: 5px solid #00bfb6;
+    padding: 80px 0px;
+    margin: 30px auto;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: arial;
+    position: absolute;
+    right: 300px;
+    color: #00bfb6;
+    z-index: 4;
+}
+
+
+/*right circle shape speech bubble*/
+
+.circle1 {
+    border: 5px solid #00bfb6;
+    position: absolute;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    right: -15px;
+    bottom: 23px;
+    z-index: 4;
+}
+
+.circle1:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    padding: 20px;
+    border-radius: 50%;
+    right: 0px;
+    bottom: 0px;
+    z-index: 4;
+}
+
+.circle2 {
+    border: 5px solid #00bfb6;
+    position: absolute;
+    width: 5px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    right: -60px;
+    bottom: 5px;
+    z-index: 4;
+}
+
 @media (max-width: 738px) {
     .posts-list article {
         flex-direction: column;
