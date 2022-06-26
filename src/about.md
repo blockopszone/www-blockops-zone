@@ -3,7 +3,7 @@ layout: base-layout.njk
 title: About us
 ---
 <h1> Get in Touch </h1>
-<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut ex eget lacus eleifend condimentum non id massa. Fusce eleifend et purus eu mattis. Nulla facilisi. Quisque ultricies rutrum nulla vitae sodales. Vivamus ipsum felis, lacinia id velit ut, consectetur mattis risus. Donec sit amet augue non arcu vehicula congue. Aliquam erat volutpat.
+<h3>This website and all the related projects are created and maintained with the effort of one small team working mainly in spare time, with the objective to contribute to the web3 adoption and to decentralize the Internet. We’d like to dedicate more resources to it, as we all are passionate about what we do, so please consider <a href="/contribute">supporting</a> us! Be aware that all the software is offered for free without any guarantee, so use it at your own risk, and that all opinions expressed are those of the authors, and may contain errors or omissions.
 </h3>
 
 <div class="social-container">
