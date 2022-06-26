@@ -18,7 +18,7 @@ tags: ['project']
 <div><strong>Pool ticker:</strong>
 BZONE
 </div> 
-<div><strong>Pool Id:</strong> pool1gsfu7c2ac6rh45dn836myms9flp99y0erppqez80nwehk9c70eu</div>
+<div><strong>Pool Id:</strong> 4413cf615dc6877ad1b33c75b26e054fc25291f918420c88ef9bb37b</div>
 
 </div>
 
