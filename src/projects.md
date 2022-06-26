@@ -1,5 +1,5 @@
 ---
-layout: base-layout.njk
+layout: project-layout.njk
 title: Projects
 ---
 
@@ -7,13 +7,11 @@ title: Projects
 
 ## CARDANO  
 
----
-
 ### <a href="https://github.com/blockopszone/cnkit" target="_blank">CNKIT</a>   
   
 cnkit is a collection of scripts and configurations that allow to deploy and manage a Cardano stake pool as code, by making use of commonly used tools, while trying to adhere to best practices, and with the ultimate goal of helping to achieve a secure and highly available setup.
 
-<img align="left" src="/img/cnschema-white.png">
+<div class="post-image"><img align="left" src="/img/cnschema-white.png"></div>
 
 As it is shown in the architecture diagram, the idea is to control the stake pool from a private and protected network, where many services running in one or many systems take care of all the heavy lifting. This way, a new node can be deployed in almost no time by syncing the binaries and the database files, instead of using the common method of installing all the dependencies and compiling in the production server, that also requires to sync from zero all the database, process that can take up to a day. On the other hand, all the management of the pool is done from the protected systems, so cold keys are never stored in the public servers. The combination of these features makes it possible to update the nodes with less downtime and even implement a sort of automatic failover.
 

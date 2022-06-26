@@ -31,7 +31,7 @@ title: Contribute
         </div>
         <script>
         function copyToClipboard(text) {
-            window.prompt("Copy to clipboard: Ctrl+C, Enter", "34984398949439898984398");
+            window.prompt("Copy to clipboard: Ctrl+C, Enter", "pool1gsfu7c2ac6rh45dn836myms9flp99y0erppqez80nwehk9c70eu");
         }
         </script>
     </div>
