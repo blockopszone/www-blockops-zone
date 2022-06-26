@@ -18,6 +18,14 @@ p {
     line-height: 1.5;
 }
 
+hr {
+    border: 1px solid #ccc;
+}
+
+.flex {
+    display: flex;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -323,9 +331,8 @@ time {
 
 .posts-list .post-image {
     height: 200px;
-    width: 25%;
+    width: 18%;
     margin-right: 5%;
-    background-color: #666666;
 }
 
 .posts-list img {
@@ -335,7 +342,7 @@ time {
 }
 
 .posts-list .post-content {
-    width: 70%;
+    width: 77%;
 }
 
 .posts-list article {
@@ -586,6 +593,17 @@ time {
 
 .staking-photo {
     object-fit: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.pool-info {
+    display: flex;
+}
+
+.pool-info div:first-child {
+    margin-right: 20px;
 }
 
 .stakepool h3 {
@@ -605,8 +623,7 @@ time {
     border: 1px solid tomato;
     padding: 1em;
     flex: 1;
-    color: white;
-    background-color: turquoise;
+    box-shadow: rgba(9, 221, 225, 0.5) 0px 1px 4px;
 }
 
 .staking-steps-wallet {
@@ -689,7 +706,22 @@ time {
     border-radius: 10px;
 }
 
+
+/* blog */
+
+.plutus-image img {
+    padding: 0;
+    margin: 48px auto;
+    max-width: 100%;
+    height: auto;
+    min-width: 50%;
+    text-align: center;
+}
+
 @media (max-width: 738px) {
+    .flex {
+        flex-direction: column;
+    }
     h1 {
         font-size: 48px;
     }
@@ -778,5 +810,8 @@ time {
         position: relative;
         font-size: 18px;
         line-height: 1.2;
+    }
+    .staking-steps {
+        padding: 30px 20px;
     }
 }

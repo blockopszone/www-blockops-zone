@@ -5,9 +5,24 @@ date: 2022-06-23
 tags: ['project']
 ---
 <div class="stakepool">
-<div class="staking-photo"><img src="{{ '/img/stakepool.jpg' | url }}" /></div>
+<h1>BlockOps Zone Staking Pool</h1>
+<div class="staking-photo">
+<img src="{{ '/img/stakepool.jpg' | url }}" />
+</div>
 
 <h3>Stake with us to support the project! </h3>
+
+---  
+
+<div class="pool-info">
+<div><strong>Pool ticker:</strong>
+BZONE
+</div> 
+<div><strong>Pool Id:</strong> 4413cf615dc6877ad1b33c75b26e054fc25291f918420c88ef9bb37b</div>
+
+</div>
+
+---  
 
 BZONE is a staking pool maintained by a small team with the objective of raising resources while participating in the network, to promote the adoption of web3 technologies, especially by contributing to the Cardano ecosystem.  
 
