@@ -26,8 +26,6 @@ BZONE
 
 BZONE is a staking pool maintained by a small team with the objective of raising resources while participating in the network, to promote the adoption of web3 technologies, especially by contributing to the Cardano ecosystem.  
 
-develop software and to promote the adoption of blockchain, especially Cardano. Please visit the website and stake with us to support the project.
-
 <h3>Why delegate to BZONE</h3>
     <p class="type-display-1 type-display-2--m type-weight-300 space-mb-8"> BZONE is owned and managed by two professionals with more than 30 years of experience in finance and IT, specially passionate about fintech and blockchain technologies.</p>
     <div class="grid grid--nested space-mb-4--xxs space-mb-8--s">
