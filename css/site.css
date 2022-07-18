@@ -740,6 +740,9 @@ time {
   }
   .posts-list .post-image {
     width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-top: 40px;
   }
   .contribute-wrapper {
     padding: 0;
