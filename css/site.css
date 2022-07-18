@@ -744,6 +744,12 @@ time {
     margin-bottom: 40px;
     margin-top: 40px;
   }
+  .main-article h1 {
+    font-size: 36px;
+  }
+  .main-article .flex .post-image {
+    min-width: 300px;
+  }
   .contribute-wrapper {
     padding: 0;
   }
