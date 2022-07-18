@@ -6,11 +6,9 @@ tags: ['project']
 ---
 <div class="stakepool">
 <h1>BlockOps Zone Staking Pool</h1>
-<div class="staking-photo">
-<img src="{{ '/img/stakepool.jpg' | url }}" />
-</div>
 
-<h3>Stake with us to support the project! </h3>
+
+<h3>Support Cardano's ecosystem and BZONE's projects while getting rewards staking Cardano's ADA. </h3>
 
 ---  
 
@@ -25,13 +23,13 @@ BZONE
 ---  
 
 <h3>Why delegate to BZONE</h3>
-    <p class="type-display-1 type-display-2--m type-weight-300 space-mb-8"> BZONE is a staking pool maintained by a small team with the objective of participate in the Cardano network, while raising resources to promote the adoption of web3 technologies, especially by contributing to the Cardano ecosystem.</p>
+    <p class="type-display-1 type-display-2--m type-weight-300 space-mb-8"> BZONE is a staking pool maintained by a small team of system engineers with the objective of participate in the Cardano network, while raising resources to promote the adoption of web3 technologies, by contributing to the Cardano ecosystem.</p>
     <div class="grid grid--nested space-mb-4--xxs space-mb-8--s">
             <ul class="features">
-              <li>Highly available, performant and secure infrastructure</li>
-              <li>Multiple Relay Nodes Distributed Worldwide</li>
-              <li>Automated monitoring and failover systems</li>
-              <li> Multi-layered Security </li>
+              <li><img src="/img/icon-stakepool-1.png" ><span>Highly available, performant and secure infrastructure</span></li>
+              <li><img src="/img/icon-stakepool-2.png" ><span>Multiple Relay Nodes Distributed Worldwide</span></li>
+              <li><img src="/img/icon-stakepool-3.png" ><span>Automated monitoring and failover systems</span></li>
+              <li><img src="/img/icon-stakepool-4.png" ><span> Multi-layered Security</span></li>
             </ul>
     </div>
           <h3>How to Stake ADA</h3>
@@ -44,7 +42,7 @@ BZONE
                 <div><span>Install one of the official Cardano wallets:</span> <a href="https://daedaluswallet.io/" target="_blank">Daedalus</a> or Yoroi (<a href="https://yoroi-wallet.com/" target="_blank">Desktop</a>, <a href="https://apps.apple.com/us/app/emurgos-yoroi-cardano-wallet/id1447326389" target="_blank">Iphone</a>, <a href="https://play.google.com/store/apps/details?id=com.emurgo" target="_blank">Android</a>). We recommend Yoroi because it's a light wallet, easy to setup and multi-platform.</div>
               </li>
               <li>
-                <div><span>Create a wallet:</span>Follow the instructions on your wallet software to create a wallet, be sure to store the recovery phrase/words in a safe place, best practice it’s to write it down by hand, never save it on a place that can be accessed by an attacker who finds out your password, since with these words all your ADA can be stolen.</div>
+                <div><span>Create a wallet:</span> Follow the instructions on your wallet software to create a wallet, be sure to store the recovery phrase/words in a safe place, best practice it’s to write it down by hand, never save it on a place that can be accessed by an attacker who finds out your password, since with these words all your ADA can be stolen.</div>
               </li>
               <li>
                 <div><span>Fund your wallet:</span> Now you can send your ADA from the exchange you bought them to your new wallet. Copy the "receiving address" exactly as shown in Yoroi/Daedalus and register a Cardano withdrawal address in your exchange account.</div>

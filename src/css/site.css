@@ -622,18 +622,23 @@ time {
 
 .stakepool .features li {
   margin-right: 1%;
-  border: 1px solid tomato;
+  display: flex;
   padding: 1em;
   flex: 1;
-  box-shadow: rgba(9, 221, 225, 0.5) 0px 1px 4px;
 }
+.stakepool .features li img {
+   width:64px;
+   min-width: 64px;
+   margin: 0;
+   margin-right:10px
+  }
 
 .staking-steps-wallet {
   counter-reset: step;
   border-bottom: 1px solid #ccc;
   background: #fff;
   padding: 20px 40px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ 
   display: flex;
   flex-direction: column;
   margin-bottom: 36px;
@@ -643,7 +648,7 @@ time {
 .staking-steps-wallet h2 {
   position: relative;
   font-size: 22px;
-  line-height: 1.2;
+  line-height: 2.5;
 }
 
 .staking-steps-wallet h2::before {
@@ -673,8 +678,8 @@ time {
 .staking-steps {
   counter-reset: step;
   background: #fff;
-  padding: 30px 40px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 0;
+  display: flex;
 }
 
 .staking-steps li {
@@ -682,8 +687,12 @@ time {
   margin-bottom: 22px;
   display: flex;
   align-items: flex-start;
-  font-size: 22px;
   line-height: 1.2;
+  width:18%;
+  margin-right: 1%;
+  padding: 2%;
+  border: 1px solid #ff6347;
+  box-shadow: rgba(9, 221, 225, 0.5) 0px 1px 4px;
 }
 
 .staking-steps li::before {
@@ -837,6 +846,12 @@ time {
   .social svg {
     height: 20px;
     width: 20px;
+  }
+  .staking-steps {
+    flex-direction: column;
+  }
+  .staking-steps li {
+    width: 100%;
   }
 }
 
