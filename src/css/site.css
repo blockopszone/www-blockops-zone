@@ -25,6 +25,9 @@ hr {
 .flex {
   display: flex;
 }
+.flex img {
+  margin-right: 30px !important;
+}
 
 header {
   display: flex;
@@ -262,7 +265,7 @@ h3 {
   font-weight: normal;
   font-size: 24px;
   color: #888;
-  margin: 12px 0;
+  margin: 24px 0;
 }
 
 h3 > a:link {
@@ -288,16 +291,13 @@ time {
   flex-direction: column;
 }
 
-.main-article time {
-  display: none;
-}
-
 .main-article a {
   text-decoration: underline;
 }
 
 .main-article h1 {
   font-size: 72px;
+  margin: 32px 0 64px;
 }
 
 .main-article > * {
@@ -308,10 +308,17 @@ time {
 .main-article .post-image {
   display: flex;
 }
+.main-article .flex .post-image {
+  min-width: 400px;
+}
 
+.main-article .flex img {
+  margin-top: 0 !important;
+  margin-bottom: 0;
+}
 .main-article img {
   padding: 0;
-  margin: 48px auto;
+  margin: 32px auto;
   max-width: 100%;
   height: auto;
   min-width: 90%;
@@ -808,14 +815,59 @@ time {
   .staking-steps {
     padding: 30px 20px;
   }
+  .social-container {
+    flex-direction: column;
+  }
+  .social {
+    width: auto;
+    margin-bottom: 30px;
+  }
+  .social img {
+    margin-right: 15px;
+  }
+  .social svg {
+    height: 20px;
+    width: 20px;
+  }
 }
 
 @media (min-width: 1280px) {
-   main {
+  main {
     padding: 100px 150px;
   }
 
   header {
     padding: 32px 150px;
+  }
+
+  .main-article img {
+    min-width: 70%;
+  }
+
+  .contribute.second .post-image {
+    width: 600px;
+  }
+
+  .contribute.second img {
+    left: -100px;
+    top: -10px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .contribute.first .post-content {
+    width: 50%;
+    position: relative;
+    z-index: 2;
+    padding: 10px 260px;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+  .contribute.first img {
+    right: 200px;
+    top: -100px;
+    width: 70%;
+  }
+  .social-container {
+    margin-top: 96px;
   }
 }
